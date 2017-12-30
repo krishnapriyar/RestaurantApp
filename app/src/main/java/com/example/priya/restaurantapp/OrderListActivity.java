@@ -4,23 +4,23 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class DisplayOrderActivity extends AppCompatActivity {
+public class OrderListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_order);
+        setContentView(R.layout.activity_order_list);
     }
 
-    public void pay(){
+    public void order(){
 
-        Intent intent = new Intent(this, PaymentActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
-    public void orderList(){
+    public void logOut(){
 
-        Intent intent = new Intent(this, OrderListActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }
 }

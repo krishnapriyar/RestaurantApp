@@ -10,24 +10,26 @@
         android:id="@+id/button8"
         android:layout_width="183dp"
         android:layout_height="wrap_content"
+        android:onClick="orderList()"
         android:text="@string/go_order_list"
-        tools:layout_editor_absoluteX="311dp"
-        tools:layout_editor_absoluteY="369dp" />
+        tools:layout_editor_absoluteX="739dp"
+        tools:layout_editor_absoluteY="97dp" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
+        android:layout_width="183dp"
         android:layout_height="wrap_content"
+        android:onClick="pay()"
         android:text="@string/pay"
-        tools:layout_editor_absoluteX="648dp"
-        tools:layout_editor_absoluteY="369dp" />
+        tools:layout_editor_absoluteX="739dp"
+        tools:layout_editor_absoluteY="237dp" />
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="android.support.v7.app.AppCompatDialogFragment"
-        android:layout_width="867dp"
-        android:layout_height="329dp"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="23dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="600dp"
+        android:layout_height="324dp"
+        app:srcCompat="@drawable/order"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="45dp" />
 
 </android.support.constraint.ConstraintLayout>

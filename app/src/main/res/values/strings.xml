@@ -26,7 +26,12 @@
 
     <string name="confirm">Confirm Order</string>
     <string name="pay">Pay</string>
+    <string name="payment">Accept Payment</string>
     <string name="go_order_list">Go to Order List</string>
+    <string name="received">Amount Received</string>
+    <string name="new_order">New Order</string>
+    <string name="logout">Log Out</string>
+    <string name="pending_orders">Total Pending Orders:  3</string>
 
 
     <string-array name="remark_arrays">

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priya.restaurantapp.OrderListActivity">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:onClick="order()"
+        android:text="@string/new_order"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:onClick="logOut()"
+        android:text="@string/logout"
+        tools:layout_editor_absoluteX="870dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="459dp"
+        android:layout_height="43dp"
+        android:text="@string/pending_orders"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="970dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/orderlist"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+</android.support.constraint.ConstraintLayout>
