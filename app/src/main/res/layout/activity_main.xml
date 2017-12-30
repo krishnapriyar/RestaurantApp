@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.priya.restaurantapp.MainActivity"
+    tools:layout_editor_absoluteY="89dp">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="294dp"
+            android:layout_height="53dp"
+            android:text="@string/iced_milo"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/qty1"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="0"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:layout_column="5"
+            android:layout_row="0"
+            android:entries="@array/remark_arrays"
+            tools:layout_editor_absoluteX="834dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="290dp"
+            android:layout_height="53dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:text="@string/hot_milo"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/qty"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:layout_column="5"
+            android:layout_row="1"
+            android:entries="@array/remark_arrays"
+            tools:layout_editor_absoluteX="834dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="288dp"
+            android:layout_height="53dp"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:text="@string/iced_coffee"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/qty"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:layout_column="5"
+            android:layout_row="2"
+            android:entries="@array/remark_arrays"
+            tools:layout_editor_absoluteX="834dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="290dp"
+            android:layout_height="53dp"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:text="@string/hot_coffee"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:text="-"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/qty"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="391dp"
+            android:layout_height="57dp"
+            android:layout_column="5"
+            android:layout_row="3"
+            android:entries="@array/remark_arrays"
+            tools:layout_editor_absoluteX="834dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_column="2"
+            android:layout_row="9"
+            android:onClick="confirmOrder()"
+            android:text="@string/confirm"
+            android:textSize="18sp" />
+
+
+    </GridLayout>
+
+</android.support.constraint.ConstraintLayout>

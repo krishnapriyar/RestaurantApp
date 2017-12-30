@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">RestaurantApp</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_item_list">Items</string>
+    <string name="qty">0</string>
+    <string name="qty1">1</string>
+
+    <string name="iced_milo">Iced Milo</string>
+    <string name="hot_milo">Hot Milo</string>
+    <string name="iced_coffee">Iced Coffee</string>
+    <string name="hot_coffee">Hot Coffee</string>
+    <string name="iced_tea">Iced Tea</string>
+    <string name="hot_tea">Hot Tea</string>
+
+    <string name="confirm">Confirm Order</string>
+    <string name="pay">Pay</string>
+    <string name="go_order_list">Go to Order List</string>
+
+
+    <string-array name="remark_arrays">
+        <item>Less Sugar</item>
+        <item>More Sugar</item>
+        <item>No Sugar</item>
+        <item>Less Milk</item>
+        <item>More Milk</item>
+        <item>No Milk</item>
+        <item>Less Sugar/Milk</item>
+        <item>More Sugar/Milk</item>
+        <item>No Sugar/Milk</item>
+        <item>No Ice</item>
+        <item>More Ice</item>
+    </string-array>
+</resources>
